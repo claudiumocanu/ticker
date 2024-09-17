@@ -10,14 +10,14 @@ import (
 )
 
 const (
-	maxPercentChangeColorGradient = 10
+	maxPercentChangeColorGradient = 50
 )
 
 //nolint:gochecknoglobals
 var (
 	p                  = te.ColorProfile()
-	stylePricePositive = newStyleFromGradient("#C6FF40", "#779929")
-	stylePriceNegative = newStyleFromGradient("#FF7940", "#994926")
+	stylePricePositive = newStyleFromGradient("#228822", "#00ff00")
+	stylePriceNegative = newStyleFromGradient("#882222", "#ff0000")
 )
 
 // NewStyle creates a new predefined style function
